@@ -6,6 +6,12 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -100,7 +106,39 @@
             </div>
           </div>
           <div class="main-block__image _ibg">
-            <img src="./img//main block/main image.png" alt="cover" />
+            <img src="./img/main block/main image.png" alt="cover" />
+          </div>
+        </div>
+        <div class="page__clients clients">
+          <div class="clients__container _container">
+            <div class="clients__title">Trusted by world-class brands.</div>
+            <div class="clients__items">
+              <div class="clients__item">
+                <img src="./img/brands/brand-icons/1.svg" alt="clients">
+              </div>
+              <div class="clients__item">
+                <img src="./img/brands/brand-icons/2.svg" alt="clients">
+              </div>
+              <div class="clients__item">
+                <img src="./img/brands/brand-icons/3.svg" alt="clients">
+              </div>
+              <div class="clients__item">
+                <img src="./img/brands/brand-icons/4.svg" alt="clients">
+              </div>
+              <div class="clients__item">
+                <img src="./img/brands/brand-icons/5.svg" alt="clients">
+              </div>
+              <div class="clients__item">
+                <img src="./img/brands/brand-icons/6.svg" alt="clients">
+              </div>
+              <div class="clients__item">
+                <img src="./img/brands/brand-icons/7.svg" alt="clients">
+              </div>
+              <div class="clients__item">
+                <img src="./img/brands/brand-icons/8.svg" alt="clients">
+              </div>
+            </div>
+            <div class="clients__link"><a href="">Meet our customers ></a></div>
           </div>
         </div>
         <section class="page__options options">
@@ -151,86 +189,85 @@
             </div>
           </div>
         </section>
-           <section class="page__brands brands">
-          <div class="brands__container _container">
-            <div class="brands__header header-block">
+        <!-- <section class="page__articles articles">
+          <div class="articles__container">
+            <div class="articles__header header-block">
               <h1 class="header-block__title">Trusted by leading brands.</h1>
             </div>
-            <div class="brands__body">
-              <div class="brands__column">
-                <article class="brands__item item-brands">
-                  <div class="item-brands__content">
+            <div class="articles__body swiper">
+              <div class="articles__content swiper-wrapper">
+                <article class="articles__item item-articles swiper-slide">
+                  <div class="item-articles__content">
                     <a href="">
                       <img
-                        class="item-brands__image"
+                        class="item-articles__image"
                         src="./img/articles/clinique.jpg"
                         alt="clinique article"
                     /></a>
 
                     <img
-                      class="item-brands__icon"
+                      class="item-articles__icon"
                       src="./img/brands/clinique.svg"
                       alt="Clinique"
                     />
-                    <a href="" class="item-brands__link">
-                      <div class="item-brands__text">
+                    <a href="" class="item-articles__link">
+                      <div class="item-articles__text">
                         Clinique builds relationships with millions of customers
                         each year.
                       </div>
                     </a>
                   </div>
                 </article>
-              </div>
-              <div class="brands__column">
-                <article class="brands__item item-brands">
-                  <div class="item-brands__content">
+                <!-- <article class="articles__item item-articles swiper-slide">
+                  <div class="item-articles__content">
                     <a href=""
                       ><img
-                        class="item-brands__image _ibg"
+                        class="item-articles__image _ibg"
                         src="./img/articles/riverisland.jpg"
                         alt="clinique article"
                     /></a>
 
                     <img
-                      class="item-brands__icon"
+                      class="item-articles__icon"
                       src="./img/brands/river-island.svg"
                       alt="river island"
                     />
-                    <a href="" class="item-brands__link">
-                      <div class="item-brands__text">
+                    <a href="" class="item-articles__link">
+                      <div class="item-articles__text">
                         River Island transforms the customer experience with
                         personalization.
                       </div>
                     </a>
                   </div>
                 </article>
-              </div>
-              <div class="brands__column">
-                <article class="brands__item item-brands">
-                  <div class="item-brands__content">
+                <article class="articles__item item-articles swiper-slide">
+                  <div class="item-articles__content">
                     <a href="">
                       <img
-                        class="item-brands__image _ibg"
+                        class="item-articles__image _ibg"
                         src="./img/articles/mandm.jpg"
                         alt="MandM Direct"
                     /></a>
                     <img
-                      class="item-brands__icon"
+                      class="item-articles__icon"
                       src="./img/brands/m-and-m.svg"
                       alt="MandM Direct"
                     />
-                    <a href="" class="item-brands__link">
-                      <div class="item-brands__text">
+                    <a href="" class="item-article__link">
+                      <div class="item-articles__text">
                         MandM Direct drives increase in revenue with deep
                         learning recs
                       </div>
                     </a>
                   </div>
-                </article>
-              </div>
+                </article> -->
+              <!-- </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
             </div>
           </div>
-        </section>
+        </section> --> -->
         <section class="page__services services">
           <div class="services__container _container">
             <h1 class="services__title header-block__title">
@@ -323,6 +360,17 @@
             </div>
           </div>
         </section>
+        <section class="page__subscribe subscribe">
+          <div class="subscribe__container _container">
+            <div class="subscribe__body">
+              <h4 class="subscribe__title">Book a demo today.
+              </h4>
+              <form action="#" class="subscribe__form">
+                <input class="subscribe__input" type="email" required placeholder="Enter your email"><button type="submit" class="subscribe__button">Book a demo</button>
+              </form>
+            </div>
+          </div>
+        </section>
       </main>
       <footer class="footer">
         <div class="footer__top">
@@ -331,26 +379,72 @@
               <div class="footer__label">Featured Capabilities</div>
               <nav class="footer__menu menu-footer">
                 <ul class="menu-footer__list">
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">A/B testing</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Abandonment recovery</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Customer insights</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Customer polling and feedback</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Customer segmentation</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Data collection</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Ecommerce merchandising</a></li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">A/B testing</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >Abandonment recovery</a
+                    >
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Customer insights</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >Customer polling and feedback</a
+                    >
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >Customer segmentation</a
+                    >
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Data collection</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >Ecommerce merchandising</a
+                    >
+                  </li>
                 </ul>
               </nav>
             </div>
             <div class="footer__column">
-              <div class="footer__label_invisible footer__label">Featured Capabilities</div>
+              <div class="footer__label_invisible footer__label">
+                Featured Capabilities
+              </div>
               <nav class="footer__menu menu-footer">
                 <ul class="menu-footer__list">
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Custom machine learning</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Journey Personalization</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Mobile app personalization</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Cross-channel personalization</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Social proofing</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Website personalization</a></li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >Custom machine learning</a
+                    >
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >Journey Personalization</a
+                    >
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >Mobile app personalization</a
+                    >
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >Cross-channel personalization</a
+                    >
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Social proofing</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >Website personalization</a
+                    >
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -358,11 +452,27 @@
               <div class="footer__label">Products</div>
               <nav class="footer__menu menu-footer">
                 <ul class="menu-footer__list">
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">1:1 Product recommendations</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">1:1 Product badging</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">1:1 Journey personalization</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Personalized content</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Product insights</a></li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >1:1 Product recommendations</a
+                    >
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">1:1 Product badging</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >1:1 Journey personalization</a
+                    >
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link"
+                      >Personalized content</a
+                    >
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Product insights</a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -370,10 +480,18 @@
               <div class="footer__label">Resources</div>
               <nav class="footer__menu menu-footer">
                 <ul class="menu-footer__list">
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Resources</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Customers</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Qubit Blog.</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Glossary</a></li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Resources</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Customers</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Qubit Blog.</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Glossary</a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -381,11 +499,21 @@
               <div class="footer__label">Company</div>
               <nav class="footer__menu menu-footer">
                 <ul class="menu-footer__list">
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Why Qubit?</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">About us</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Careers</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Press</a></li>
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Contact</a></li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Why Qubit?</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">About us</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Careers</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Press</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Contact</a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -393,7 +521,9 @@
               <div class="footer__label">Working with us</div>
               <nav class="footer__menu menu-footer">
                 <ul class="menu-footer__list">
-                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Legal</a></li>
+                  <li class="menu-footer__item">
+                    <a href="" class="menu-footer__link">Legal</a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -401,12 +531,33 @@
         </div>
         <div class="footer__bottom">
           <div class="footer__container _container">
-            <div class="footer__logo"><a><img alt="logo" src="./img/footer/logo-white.svg"/></a></div>
-           <div class="footer__copy">© 2021 Qubit. All rights reserved.</div>
+            <div class="footer__logo">
+              <a><img alt="logo" src="./img/footer/logo-white.svg" /></a>
+            </div>
+            <div class="footer__copy">© 2021 Qubit. All rights reserved.</div>
           </div>
         </div>
       </footer>
     </div>
     <script src="./script.js"></script>
+    <!-- SwiperJS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
