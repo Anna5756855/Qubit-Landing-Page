@@ -50,3 +50,32 @@ if (iconMenu) {
     })
 }
 
+//Swiper JS
+var swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 40,
+    slidesPerGroup: 1,
+    loop: true,
+    centerSlide: true,
+    grabCursor: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        765: {
+            slidesPerView: 2
+        },
+        1077: {
+            slidesPerView: 3
+        }
+    }
+  });
